@@ -7,7 +7,6 @@ export const Book = types.model("Book", {
     author: types.string,
     price: types.number,
     isAvailable: true,
-    goods:any
 })
 
 export const BookStore = types
@@ -60,3 +59,4 @@ function sortBooks(books) {
         .filter(b => b.isAvailable)
         .sort((a, b) => (a.name > b.name ? 1 : a.name === b.name ? 0 : -1))
 }
+//test

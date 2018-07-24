@@ -15,6 +15,7 @@
 * **location:** 添加了第二条注释 ([3a1ef43](https://github.com/yelin2016/gitlogtest/commit/3a1ef43))
 * **书店:** 添加注释 ([a71924b](https://github.com/yelin2016/gitlogtest/commit/a71924b))
 * 修改了版本信息 ([d32f2d4](https://github.com/yelin2016/gitlogtest/commit/d32f2d4))
+* 修改文档 ([04a7c26](https://github.com/yelin2016/gitlogtest/commit/04a7c26))
 
 
 ### BREAKING CHANGES

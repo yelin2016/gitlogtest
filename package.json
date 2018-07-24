@@ -1,6 +1,6 @@
 {
   "name": "mst-example-bookshop",
-  "version": "2.2.8",
+  "version": "2.2.9",
   "private": true,
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",

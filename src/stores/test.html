@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <script>
+  var str = "<p><style type="text/css">
+        p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 19.0px; font: 14.0px 'Helvetica Neue'}
+        </style>
+        </p><p>上班下班都可以用这图</p>"
+   var reg =  /<style>[\s\S]*<\/style>/;
+ console.log(reg.test(str))     
+     </script>
+</body>
+</html>

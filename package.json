@@ -1,6 +1,6 @@
 {
   "name": "mst-example-bookshop",
-  "version": "2.2.4",
+  "version": "2.2.3",
   "private": true,
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
@@ -25,5 +25,10 @@
     "_test": "react-scripts test || echo 'jest is broken' || true",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

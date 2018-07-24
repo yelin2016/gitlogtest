@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "_test": "react-scripts test || echo 'jest is broken' || true",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "config": {
     "commitizen": {
